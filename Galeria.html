@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <header> 
+        <br clear="left">
+           <img class=logo src="imagenes/wattlogo.png" alt="Logo Watt" width="300px">  
+           <h1 class="titulo">Introducción al Desarrollo Web</h1>
+        </br>
+         
+        <!--Menu de navegacion-->
+        <nav id="main-nav" class="menu">
+         <a class="index" href="Index.html">Inicio </a>
+         <a class="bio" href="Biografia.html">Biografía </a> 
+         <a class="gal" href="Galeria.html">Galería </a>
+      </nav>
+    </header>
+        
+    <main> 
+       <h2>Galería</h2>
+
+       <!--Botones-->
+          <nav id="sidebar">
+             <button id="hobbiesBtn" onclick="showCategory('hobbies')" >Hobbies</button>
+             <button id="mascotasBtn" onclick="showCategory('mascotas')" >Mascotas</button>
+             <button id="familiaBtn" onclick="showCategory('familia')" >Familia</button>
+             <button id="galleryBtn" onclick="showCategory('gallery')" >Librería</button>
+          </nav>
+
+       <!--Tab de hobbies-->
+       <div id="gallery">
+          <div class="category" id="hobbies"> 
+              <img class="imggal" src="imagenes/hobbies/dibujo.JPG" alt="hobbies1">
+              <img  class="imggal" src="imagenes/hobbies/playa.jpg" alt="hobbies2">
+              <img class="imggal" src="imagenes/hobbies/flor.jpg" alt="hobbies3">
+              <img class="imggal" src="imagenes/hobbies/alfajor.jpg" alt="hobbies4">
+          </div>
+
+       <!--Tab de Mascotas-->
+          <div class="category" id="mascotas"> 
+              <img class="imggal" src="imagenes/mascotas/bebe.jpg" alt="mascotas1">
+              <img class="imggal" src="imagenes/mascotas/lucy.JPG" alt="mascotas2">
+              <img class="imggal" src="imagenes/mascotas/piri.JPG" alt="mascotas3">
+              <img class="imggal" src="imagenes/mascotas/vaca.jpg" alt="mascotas4">
+          </div>
+
+       <!--Tab de Paseos-->
+          <div class="category" id="familia"> 
+              <img class="imggal" src="imagenes/familia/fam.jpg" alt="fam1">
+              <img class="imggal" src="imagenes/familia/ita.JPG" alt="fam2">
+              <img class="imggal" src="imagenes/familia/ita2.jpg" alt="fam3">
+              <img class="imggal" src="imagenes/familia/tita.jpg" alt="fam4">
+          </div>
+        </div> 
+         
+    </main>
+       
+    
+    <footer> 
+         <small>&#169; 2021 Hecho por <strong> Melany Retana </strong> |</small>
+         
+            <a href="https://www.facebook.com/"target= blank><i class="fab fa-facebook-square"></i></a> 
+            <a href="https://www.instagram.com/?hl=es-la"target= blank><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/login?lang=es"target= blank><i class="fab fa-twitter-square"></i></a> 
+            <a href="https://www.linkedin.com/in/melany-retanab02"target= blank><i class="fab fa-linkedin"></i> </a> 
+        
+
+     </footer>
+     <script src="java/script.js"></script>
+</body>
+</html>
